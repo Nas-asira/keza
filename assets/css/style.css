@@ -288,6 +288,10 @@ body {
   position: relative;
   /* padding: 50px 0; */
 }
+.sectioni {
+  position: relative;
+  padding: 100px 0;
+}
 
 .section.section-padding {
   padding: 100px 0 70px;
@@ -12144,7 +12148,7 @@ background-color: var(--thm-base-hover);
 .sigma_footer .sigma_footer-bottom {
   border-top: 1px solid var(--thm-border);
   padding: 30px 0;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   text-align: center;
 }
 
@@ -12239,7 +12243,7 @@ background-color: var(--thm-base-hover);
 /* style 5 */
 
 .sigma_footer.style-5 .sigma_footer-bottom{
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 .sigma_footer.style-5.has-newsletter{
@@ -13366,9 +13370,14 @@ background-color: var(--thm-base-hover);
 /* Style 21 */
 
 .sigma_about.style-21 p{
-   color: var(--thm-secondary);
+   color:var(--thm-secondary);
    opacity: 0.8;
 }
+.sigm_about.style-21 p{
+  color:#fff;
+  opacity: 0.8;
+}
+
 
 .sigma_about.style-21 .sigma_info.style-15 .sigma_info-description h5,
 .sigma_about.style-21 .sigma_info.style-15 .sigma_info-title i{
