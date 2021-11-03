@@ -16,6 +16,9 @@
   --thm-b-text-rgb: 104, 106, 111; /* Body text rgb */
   --thm-border: #EBF2F3; /* Borders */
   --thm-border-rgb: 225, 225, 225; /* Borders rgb */
+  --thm-business-hub: #589d33;
+  --thm-pyhsical-health: #340744;
+  --thm-mental-health: #08787d;
 }
 
 /* animation */
@@ -290,7 +293,7 @@ body {
 }
 .sectioni {
   position: relative;
-  padding: 100px 0;
+  padding: 70px 0;
 }
 
 .section.section-padding {
@@ -1347,6 +1350,15 @@ input[type=checkbox]:checked+label.switch-toggle:after {
 
 .bg-secondary-1 {
   background-color: var(--thm-secondary) !important;
+}
+.bg-business-1 {
+  background-color: var(--thm-business-hub) !important;
+}
+.bg-physical-1 {
+  background-color: var(--thm-pyhsical-health) !important;
+}
+.bg-mental-1 {
+  background-color: var(--thm-mental-health) !important;
 }
 
 .bg-tertiary {
@@ -4138,8 +4150,8 @@ background-color: var(--thm-base-hover);
 .sigma_info-wrapper.style-26{
   background-color: #fff;
   padding: 20px 50px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-  border-radius: 15px;
+  /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); */
+  /* border-radius: 15px; */
 }
 
 .sigma_info.style-26{
@@ -7844,7 +7856,7 @@ background-color: var(--thm-base-hover);
   border-radius: 6px;
 }
 .sigma_service-wrapper.style-18.margin-negative{
-  margin: -200px 0 100px;
+  margin: -200px 0 10px;
 }
 
 .sigma_service-wrapper.style-18 .section-title h3{
