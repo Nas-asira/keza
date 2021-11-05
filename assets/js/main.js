@@ -280,7 +280,7 @@
     slidesToScroll: 1,
     arrows: true,
     dots: false,
-    autoplay: false,
+    autoplay: true,
     centerMode: true,
     centerPadding: 0,
     responsive: [
@@ -806,6 +806,8 @@
       }
     ]
   });
+
+
 
   /*-------------------------------------------------------------------------------
    Instagram Slider

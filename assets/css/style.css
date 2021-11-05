@@ -21,6 +21,10 @@
   --thm-mental-health: #08787d;
 }
 
+html{
+  scroll-behavior : smooth;
+}
+
 /* animation */
 @keyframes pulseInOut {
   0% {
